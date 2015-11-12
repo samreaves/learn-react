@@ -1,7 +1,15 @@
 import React from 'react';
+import AppActions from '../actions/app-actions';
+import Catalog from './catalog';
+import Cart from './cart';
 
 export default class App extends React.Component {
 	render() {
-		return <h1>Learn React</h1>
-	}
-}
+		return  (
+			<div className="container">
+				<Catalog />
+				<Cart />
+			</div>
+		)
+	};
+};
