@@ -1,6 +1,6 @@
 import React from 'react';
-import AppActions from '../actions/app-actions';
-import CartButton from './cart-button';
+import AppActions from '../../actions/app-actions';
+import CartButton from '../cart/cart-button';
 
 export default ( props ) => {
 	return (
