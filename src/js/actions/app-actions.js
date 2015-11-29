@@ -3,7 +3,6 @@ import { dispatch, register } from '../dispatchers/app-dispatcher';
 
 export default {
 	addItem( item ) {
-		console.log("added item ", item);
 		dispatch({
 			actionType: AppConstants.ADD_ITEM, item
 		})

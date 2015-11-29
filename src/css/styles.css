@@ -1,0 +1,4 @@
+a, a:visited, a:hover {
+    text-decoration: inherit;
+    color: inherit;
+}
